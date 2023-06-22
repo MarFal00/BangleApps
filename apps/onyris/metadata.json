@@ -1,7 +1,7 @@
 {
   "id": "onyris",
   "name": "Onyris Link",
-  "version": "0.11",
+  "version": "0.01",
   "description": "Detects your sleep pattern and sends the data to your Onyris device",
   "icon": "onyris.png",
   "tags": "health",
