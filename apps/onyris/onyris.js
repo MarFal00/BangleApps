@@ -17,6 +17,9 @@ function onHRM(h) {
     g.clearRect(0,24,g.getWidth(),g.getHeight());
   }
   hrmInfo = h;
+  var heartRate = hrmInfo.bpm || "--";
+  console.log(heartRate);
+  updateHrm();
   /* On 2v09 and earlier firmwares the only solution for realtime
   HRM was to look at the 'raw' array that got reported. If you timed
   it right you could grab the data pretty much as soon as it was written.
