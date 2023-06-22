@@ -1,8 +1,8 @@
 {
-  "id": "hrm",
-  "name": "Heart Rate Monitor",
+  "id": "onyris",
+  "name": "Onyris sleep tracker",
   "version": "0.11",
-  "description": "Measure your heart rate and see live sensor data",
+  "description": "Measure your sleep phases and send data",
   "icon": "heartrate.png",
   "tags": "health",
   "supports": ["BANGLEJS","BANGLEJS2"],
