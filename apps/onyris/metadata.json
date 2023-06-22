@@ -1,13 +1,13 @@
 {
   "id": "onyris",
-  "name": "Onyris sleep tracker",
+  "name": "Onyris Link",
   "version": "0.11",
-  "description": "Measure your sleep phases and send data",
-  "icon": "heartrate.png",
+  "description": "Detects your sleep pattern and sends the data to your Onyris device",
+  "icon": "onyris.png",
   "tags": "health",
   "supports": ["BANGLEJS","BANGLEJS2"],
   "storage": [
-    {"name":"hrm.app.js","url":"heartrate.js"},
-    {"name":"hrm.img","url":"heartrate-icon.js","evaluate":true}
+    {"name":"onyris.app.js","url":"onyris.js"},
+    {"name":"onyris.img","url":"onyris-icon.js","evaluate":true}
   ]
 }
